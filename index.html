@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Bubble Game</h1>
+        <div class="playArea">
+            <div class="top">
+                <div class="details">
+                    Hit
+                    <div class="box" id="hit">1</div>
+                </div>
+                <div class="details">
+                    Time
+                    <div class="box" id="timer">60</div>
+                </div>
+                <div class="details">
+                    Score
+                    <div class="box" id="score">0</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="reset">
+                    <h2>Game over</h2>
+                    <button id="start">start the game</button>
+                    <button id="tutorial">tutorial</button>
+                </div>
+            </div>
+        </div>
+        <div class="tutorialView">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
